@@ -1,0 +1,64 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #8e44ad; /* Border color in purple */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #ecf0f1; /* Light background color */
+  }
+  
+  h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #8e44ad; /* Purple heading color */
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #8e44ad; /* Purple border for input */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff; /* White background for input */
+  }
+  
+  .red-text {
+    color: #c0392b; /* Dark red text color */
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  .btn-green,
+  .btn-red {
+    padding: 12px 20px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-green {
+    background-color: #9b59b6; /* Purple button color */
+  }
+  
+  .btn-red {
+    background-color: #c0392b; /* Dark red button color */
+    margin-left: 20px;
+  }
+  
+  .btn-green:disabled,
+  .btn-red:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .btn-green:hover,
+  .btn-red:hover {
+    background-color: #8e44ad; /* Darker shade of purple for button hover effect */
+  }
+  
